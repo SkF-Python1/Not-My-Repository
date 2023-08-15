@@ -1,10 +1,7 @@
 import turtle
 
 # Set up the turtle
-try:
-    flag_turtle = turtle.Turtle()
-except:
-    flag_turtle = turtle.Turtle()
+flag_turtle = turtle.Turtle()
 flag_turtle.speed(2)
 
 # Calculate the height and width of the flag
